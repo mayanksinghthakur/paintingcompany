@@ -1,0 +1,55 @@
+*{
+    margin: auto;
+    
+}
+.navigationbar a{
+    
+    padding-left: 100px;
+}
+.navigationbar{
+    background-color: aquamarine;
+}
+.navigationbar a:hover{
+    height: 10px;
+    width: 5px;
+    background-color: white;
+    border-radius: 50px;
+}
+.navigationbar span{
+    color: black;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-weight: 500;
+   font-size: 50px;
+   
+}
+.bottom-left {
+    position: absolute;
+    bottom: 300px;
+    left: 150px;
+    right: 150px;
+    font-size: 30px;
+    color:black;
+    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aliceblue;
+  }
+  .flexbox{
+    display: flex;
+
+  }
+  .box1{
+    background-color: aqua;
+    position: absolute;
+  }
+.box2{
+    background-color: aqua;
+    position: absolute;
+   left: 450px;
+   height: 300px;
+    
+    
+}
+.button{
+    background-color:white;
+    
+    border-radius: 30px;
+    }
